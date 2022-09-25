@@ -64,7 +64,7 @@ void FindPoint ()
     Console.WriteLine("Введите b2");
     double b2 = Convert.ToInt32(Console.ReadLine());
 
-    double x = (k1 - k2) / (b2 - b1);
+    double x = (b2 - b1) / (k1 - k2);
     double y = (k1 * x) + b1;
 
     Console.WriteLine($"точка пересечения имеет координаты x = {x}, y = {y}");
