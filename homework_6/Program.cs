@@ -69,5 +69,5 @@ void FindPoint ()
 
     Console.WriteLine($"точка пересечения имеет координаты x = {x}, y = {y}");
 }
-
+ 
 //FindPoint();
