@@ -168,7 +168,7 @@ void MassSummMin ()
 void ProductMatrix ()
 {
     int m = new Random().Next(2,4);
-    int n = new Random().Next(2,4);
+    int n = new Random().Next(3,4);
     int p = new Random().Next(2,4);
 
     int[,] matrix1 = new int[m,n];
